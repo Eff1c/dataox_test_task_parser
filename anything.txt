@@ -1,0 +1,3 @@
+docker run --rm --name postgres_db -e POSTGRES_PASSWORD=sl8s36yR7 -p 5432:5432 -d postgres
+
+docker exec -it parser_test /bin/bash
